@@ -16,7 +16,7 @@ GPIO_PIR = 9
 
  
 
-print "PIR Module Holding Time Test (CTRL-C to exit)"
+print ("PIR Module Holding Time Test (CTRL-C to exit)")
 
  
 
