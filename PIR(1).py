@@ -34,7 +34,7 @@ try:
 
  
 
- print "Waiting for PIR to settle ..."
+ print ("Waiting for PIR to settle ...")
 
  
 
@@ -45,7 +45,7 @@ try:
 
  
 
- print "  Ready"
+ print ("  Ready")
 
  stop_time=time.time()
 
@@ -70,11 +70,11 @@ try:
 
      print datetime.datetime.now(),
 
-     print "  Moving ",
+     print ("  Moving "),
 
      idle_time=int(start_time-stop_time)
 
-     print " (Idle time : " + str(idle_time) + " secs)"
+     print (" (Idle time : " + str(idle_time) + " secs)")
 
 
      Previous_State=1
@@ -84,13 +84,13 @@ try:
 
      stop_time=time.time()
 
-     print datetime.datetime.now(),
+     print (datetime.datetime.now()),
 
-     print "  Standby  ",
+     print ("  Standby  "),
 
      elapsed_time=int(stop_time-start_time)
 
-     print " (Elapsed time : " + str(elapsed_time) + " secs)"
+     print (" (Elapsed time : " + str(elapsed_time) + " secs)")
 
      Previous_State=0
 
@@ -98,7 +98,7 @@ try:
 
 except KeyboardInterrupt:
 
- print "  Quit"
+ print ("  Quit")
 
 
  GPIO.cleanup()
