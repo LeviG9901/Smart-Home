@@ -12,7 +12,7 @@ GPIO.setmode(GPIO.BCM)
  
 
 
-GPIO_PIR = 9
+GPIO_PIR = 7
 
  
 
