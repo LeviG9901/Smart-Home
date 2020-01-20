@@ -4,6 +4,7 @@
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
 <script type="text/javascript" src="jquery-1.9.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="asd.css" />
 
 <title>SmartHome</title>
 
