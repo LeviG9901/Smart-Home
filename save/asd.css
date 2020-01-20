@@ -1,0 +1,14 @@
+body {
+  background-image: url("kek.jpg");
+}
+
+h1 {
+	color: white;
+	text-align:center;
+	font-size:72px;
+	font-family:Arial;
+}
+
+form {
+	text-align:center;
+}
