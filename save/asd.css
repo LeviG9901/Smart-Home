@@ -3,10 +3,13 @@ body {
 	color:white;
 }
 
+h1{
+	font-size:72px;
+}
+
 h1,h2,h3 {
 	color: white;
 	text-align:center;
-	font-size:72px;
 	font-family:Arial;
 }
 
