@@ -5,6 +5,6 @@ a riasztó működésbe lépett.
 
 Ezt a projektet készítette:
 <br>-Földes Kálmán Viktor</br>
-<br>-Gvárdián Levente</br>
+-Gvárdián Levente
 
 Tantrágykód:TKNB_TKKM011
