@@ -4,7 +4,7 @@ egy riasztót, ami megszólaltat egy bluetooth hangszórót, ha be van kapcsolva
 a riasztó működésbe lépett.
 
 Ezt a projektet készítette:
--Földes Kálmán Viktor
--Gvárdián Levente
+<br>-Földes Kálmán Viktor</br>
+<br>-Gvárdián Levente</br>
 
 Tantrágykód:TKNB_TKKM011
