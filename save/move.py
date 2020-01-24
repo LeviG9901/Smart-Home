@@ -68,7 +68,7 @@ try:
 
       print(mycursor.rowcount, "record inserted.")
       print (y)
-      os.system("echo -e 'Subject: Riasztás\r\n\r\nRiasztás!' |msmtp --debug --from=default -t gvardian.levente@gmail.com")
+      os.system("echo -e 'Subject: Riasztás\r\n\r\nRiasztás!' |msmtp --debug --from=default -t reciveemail@gmail.com")
       while y!=0:
        os.system("omxplayer 2.mp3 -o alsa")
  
@@ -105,7 +105,7 @@ try:
       mydb.commit()
 
       print(mycursor.rowcount, "record inserted.")
-      os.system("echo -e 'Subject: Riasztás\r\n\r\nRiasztás!' |msmtp --debug --from=default -t gvardian.levente@gmail.com")
+      os.system("echo -e 'Subject: Riasztás\r\n\r\nRiasztás!' |msmtp --debug --from=default -t reciveemail@gmail.com")
       while y!=0:
        os.system("omxplayer 2.mp3 -o alsa")
 
